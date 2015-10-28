@@ -1,0 +1,79 @@
+header {
+  background : #eeee00; 
+  
+}
+body {
+  background: #bbbbbb;
+}
+header h1 {
+  font-family: Arial ;
+    font-size : 70px ;
+   background  : #aaaaaa ;
+}
+.a {
+  color: #00cccc;
+  font-size: 20px;
+}
+.b {
+  color:#cccc00;
+  font-size: 20px;
+}
+.c {
+  color: #00cc00;
+  font-size: 20px;
+}
+.d {
+  color: #cc0000;
+  font-size: 20px;
+}
+.e {
+  color: #ee00ee;
+  font-size: 20px;
+}
+.f {
+  color: #0000ee;
+  font-size: 20px;
+}
+.g {
+  color : #333333;
+  font-size: 20px;
+}
+.xs {
+  width : 100px;
+    height : 100px;
+}
+.a:hover {
+  color: #00ffff;
+  font-size: 20px;
+}
+.b:hover {
+  color:#ffff00;
+  font-size: 20px;
+}
+.c:hover {
+  color: #00ff00;
+  font-size: 20px;
+}
+.d:hover {
+  color: #ff0000;
+  font-size: 20px;
+}
+.e:hover {
+  color: #ff00ff;
+  font-size: 20px;
+}
+.f:hover {
+  color: #0000ff;
+  font-size: 20px;
+}
+.g:hover {
+  color : #000000;
+  font-size: 20px;
+}
+.aa {
+  width : 100px;
+  height : 100px;
+
+  
+  
+}
