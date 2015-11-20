@@ -1,0 +1,97 @@
+ body {
+ 	background: #BABABA ;
+ }
+
+.a {
+	color : #AA00EE ;
+	font-size: 30px ;
+}
+.g	{
+	color : #00EE00 ;
+	font-size: 30px ;
+}
+.h	{
+	color : #0000EE ;
+	font-size: 30px ;
+}
+.i {
+	color : #EE0000 ;
+	font-size: 30px ;
+}
+.j {
+	color: #EE7700 ;
+	font-size: 30px ;
+
+}
+.k {
+	color: #EEEE00 ;
+	font-size: 30px ;
+}
+.c {
+ 	height: :500px ;
+	border : "color:red" ;
+}
+#datapicker {
+border : "color:red";
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 2px solid #0A0;
+    background: #e6e6e6 ;
+    font-weight: normal;
+    color: #555555;
+    }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 2px solid #0D0;
+    background: #dadada ;
+    font-weight: normal;
+    color: #212121;
+}
+.ui-widget-content {
+    border: 2px solid #00BBBB;
+    background: #ffffff ;
+    color: #222222;
+}
+/*.ui-slider-range ,.ui-widget-header, .ui-corner-all, .ui-slider-range-min {
+	background : #FF8888;
+	width: 95%;
+	position: center 
+}*/
+ .ui-slider-range-min {
+	background : #88FF88;
+}
+#ui-datepicker-div {
+	width : 300px ;
+}
+.ddd {
+	background : #AA22EE;
+		width: 120px;
+   		height: 40px;
+   		font-size: 20px;
+}
+.eee {
+	background : #5555FF;
+		width: 120px;
+   		height: 40px;
+   		font-size: 20px
+}
+.iii{
+	background : #44FF44;
+	width: 150px;
+	height: 75px;
+	font-size: 40px
+}
+.jjj{
+	background : #111111;
+	width: 150px;
+	height: 75px;
+	font-size: 40px;
+	color: #CCCCCC;
+}
+.c1, .c2, .c3 {
+	background : #FF8888;
+	width: 30%;
+	position: center 
+}
+.eee {
+
+}
