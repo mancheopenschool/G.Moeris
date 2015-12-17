@@ -8,25 +8,26 @@
 </head>
 <body>
 	<form action="inscription.php" method="POST" enctype="multipart/form-data">
-	<label for="login">Pseudo *:<input type="text" id="login" name="login"/></label>
-	<label for="password">Mot de passe *:<input type="password" id="password" name="password"/></label>
-	<label for="confirmpassword">Confirmer le Mot de passe *:<input type="password" id="confirmpassword" name="confirmpassword"/></label>
-	<label for="firstname">Prenom:<input type="text" id="firstname" name="firstname"/></label>
-	<label for="lastname">Nom:<input type="text" id="lastname" name="lastname"/></label>
-	<label for="avatar">Avatar:<input type="text" id="avatar" name="avatar"/></label>
-	<input type="submit" id="submit" name="submit" value="Connexion"/>
+		<label for="login">Pseudo *:<input type="text" id="login" name="login"/></label>
+		<label for="password">Mot de passe *:<input type="password" id="password" name="password"/></label>
+		<label for="confirmpassword">Confirmer le Mot de passe *:<input type="password" id="confirmpassword" name="confirmpassword"/></label>
+		<label for="firstname">Prenom:<input type="text" id="firstname" name="firstname"/></label>
+		<label for="lastname">Nom:<input type="text" id="lastname" name="lastname"/></label>
+		<label for="avatar">Avatar:<input type="text" id="avatar" name="avatar"/></label>
+		<input type="submit" id="submit" name="submit" value="Connexion"/>
+	</form>
 <?php 
 	try {
 		$bdd = new PDO('mysql:host=localhost;dbname=tp_php;charset=utf8','root','rootmos');
-		}
+	}
 	catch (Exception $e) {
 		die('Erreur : ' . $e->getMessage() );
-			
-
-			}
+	}
+	
 if (isset($_POST["submit"])){
     if ($_POST["login"] == "" || $_POST["password"] == "" || $_POST["confirmpassword"] == "" ){
  	echo "Les champs avec \"*\" ne doivent pas être vides";
+}
 }
 else {
 	$sql = $bdd->query("SELECT * FROM user WHERE login = '".$_POST['login']."'");
